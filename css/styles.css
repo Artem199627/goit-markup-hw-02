@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
 }
 .link {
   text-decoration: none;
@@ -7,6 +9,7 @@ body {
 .list {
   list-style-type: none;
 }
+/**--------HEADER--------*/
 .header-logo-accent {
   color: #4d5ae5;
   font-size: 18px;
@@ -36,4 +39,13 @@ body {
 .addres-list .contact:hover,
 .addres-list .contact:focus {
   color: black;
+}
+/**--------FILTRES--------*/
+.filters-btn {
+  color: #4d5ae5;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
