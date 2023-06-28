@@ -1,5 +1,6 @@
 :root {
   --accent-color: #2e2f42;
+  --color-text: #fff;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -118,4 +119,37 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--accent-color);
+}
+/** ------- Main Page --------**/
+body {
+  font-family: "Roboto" sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+/** ---Hero -- **/
+.hero {
+  background: var(--accent-color);
+}
+.hero-title {
+  color: var(--color-text);
+  text-align: center;
+  font-size: 56px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  color: var(--color-text);
+  background: #4d5ae5;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
