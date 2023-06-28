@@ -54,7 +54,7 @@ body {
 }
 .addres-list .contact:hover,
 .addres-list .contact:focus {
-  color: black;
+  background-color: #404bbf;
 }
 /**--------FILTRES--------*/
 .filters-btn {
@@ -172,7 +172,6 @@ body {
 .do-title {
   color: var(--accent-color);
   text-align: center;
-
   font-size: 36px;
   font-family: Roboto;
   font-weight: 700;
@@ -181,12 +180,12 @@ body {
   text-transform: capitalize;
 }
 .team-title {
-  color: var(--accent-color);
+  background-color: #f4f4fd;
   text-align: center;
   font-size: 36px;
   font-family: Roboto;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -200,7 +199,7 @@ body {
   letter-spacing: 0.02em;
 }
 .team-job {
-  color: #434455;
+  background-color: #ffffff;
   text-align: center;
   font-size: 16px;
   font-family: Roboto;
