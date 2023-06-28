@@ -4,7 +4,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
 }
 .link {
@@ -62,7 +62,7 @@ body {
   background-color: #e7e9fc;
   text-align: center;
   font-size: 16px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -73,7 +73,7 @@ body {
   background-color: #404bbf;
   text-align: center;
   font-size: 16px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
