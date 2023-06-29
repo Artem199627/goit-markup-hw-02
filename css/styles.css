@@ -112,6 +112,7 @@ body {
 .footer {
   background-color: var(--accent-color);
 }
+
 .footer-logo {
   color: var(--color-logo);
   font-size: 18px;
