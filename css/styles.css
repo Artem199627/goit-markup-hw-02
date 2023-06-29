@@ -8,8 +8,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #fff;
+  color: var(--color-contact);
+  background-color: var(--color-text);
 }
 .link {
   text-decoration: none;
