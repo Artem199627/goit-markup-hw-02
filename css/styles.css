@@ -4,6 +4,7 @@
   --color-logo: #4d5ae5;
   --color-contact: #434455;
   --color-back: #f4f4f4;
+  --color-btn: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -29,10 +30,12 @@ body {
   overflow: hidden;
 }
 /**--------HEADER--------*/
+.header-logo .header-logo-span {
+  font-family: "Raleway" sans-serif;
+}
 .header-logo {
   color: var(--color-logo);
   font-size: 18px;
-  font-family: "Raleway" sans-serif;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -42,7 +45,6 @@ body {
   color: var(--accent-color);
   font-size: 18px;
   font-style: normal;
-  font-family: "Raleway" sans-serif;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -61,6 +63,9 @@ body {
   letter-spacing: 0.02em;
 }
 
+.adress {
+  font-style: normal;
+}
 .contact {
   color: var(--color-contact);
   font-size: 16px;
@@ -69,14 +74,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.addres-list .contact:hover,
-.addres-list .contact:focus {
+.contact:hover,
+.contact:focus {
   color: #404bbf;
 }
 /**--------FILTRES--------*/
 .filters-btn {
   color: var(--color-logo);
-  background-color: var(--color-back);
+  background-color: var(--color-btn);
   font-size: 16px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -84,15 +89,25 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
 .filters-btn-one {
   color: var(--color-logo);
-  background-color: var(--color-back);
+  background-color: var(--color-btn);
   font-size: 16px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+}
+.filters-btn-one:hover,
+.filters-btn-one:focus {
+  background-color: #404bbf;
+  color: #ffffff;
 }
 .row1-title .row2-title .row3-title {
   color: var(--accent-color);
