@@ -127,7 +127,7 @@ body {
 .footer-text {
   color: var(--color-btn);
   font-size: 16px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--accent-color);
@@ -164,7 +164,7 @@ body {
 .feature-title {
   color: var(--accent-color);
   font-size: 20px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -172,7 +172,7 @@ body {
 .feature-text {
   color: #434455;
   font-size: 16px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -207,7 +207,7 @@ body {
 .team-names {
   color: var(--accent-color);
   font-size: 20px;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -215,7 +215,7 @@ body {
 .team-jobs {
   background-color: #ffffff;
   font-size: 16px;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
