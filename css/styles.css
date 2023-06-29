@@ -5,7 +5,7 @@
   --color-contact: #434455;
   --color-back: #f4f4f4;
   --color-btn: #f4f4fd;
-  --color-ground: #ffffff;
+  --color-ground: white;
 }
 body {
   font-family: "Roboto", sans-serif;
