@@ -1,6 +1,7 @@
 :root {
   --accent-color: #2e2f42;
   --color-text: #fff;
+  --color-logo: #4d5ae5;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -26,21 +27,22 @@ body {
   overflow: hidden;
 }
 /**--------HEADER--------*/
-.header-logo-accent {
-  color: #4d5ae5;
+.header-logo {
+  color: var(--color-logo);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: "Raleway" sans-serif;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .header-logo-span {
   color: var(--accent-color);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
