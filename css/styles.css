@@ -6,7 +6,7 @@
   --color-back: #f4f4f4;
   --color-btn: #f4f4fd;
 }
-body {
+.body {
   font-family: "Roboto", sans-serif;
   color: var(--color-contact);
   background-color: var(--color-text);
