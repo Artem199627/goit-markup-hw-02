@@ -5,11 +5,12 @@
   --color-contact: #434455;
   --color-back: #f4f4f4;
   --color-btn: #f4f4fd;
+  --color-ground: #ffffff;
 }
 .body {
   font-family: "Roboto", sans-serif;
-  color: var(--color-contact);
-  background-color: var(--color-text);
+  color: #434455;
+  background-color: var(--color-ground);
 }
 .link {
   text-decoration: none;
